@@ -558,26 +558,11 @@ ports.
 <!-- .slide: data-transition="none" -->
 @title[Virtual LAN  - VLAN 02]
 <p align="center"><span class="gold" ><b>Virtual LAN  - VLAN</b></span></p>
-<div class="left-1">
-<ul>
- <li><span style="font-size:0.7em" >Logical groups of Stations at the data link layer (Tagging)</span></li>
-  <ul>
-    <li><span style="font-size:0.6em" >VLAN's allow a network manager to logically segment a LAN into different broadcast domains  : <a href="http://www.cse.wustl.edu/~jain/cis788-97/ftp/virtual_lans/#WhatVLAN">Link</a> </span></li>
-  </ul>
- <li><span style="font-size:0.7em" >Why VLAN?</span></li>
-  <ul>
-     <li><span style="font-size:0.6em" >Performance</span></li>
-     <li><span style="font-size:0.6em" >Security</span></li>
-     <li><span style="font-size:0.6em" >Formation of Virtual Workgroups</span></li>
-     <li><span style="font-size:0.6em" >Simplified Administration</span></li>
-     <li><span style="font-size:0.6em" >Cost</span></li>
-  </ul>
- <li><span style="font-size:0.7em" >VLAN Standard: IEEE 802.1Q </span></li>
-</ul>
-</div>
-<div class="right-1">
-<span style="font-size:0.8em" >&nbsp;  </span>
-</div>
+<br>
+<br>
+<br>
+<span style="font-size:0.6em" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="http://www.cse.wustl.edu/~jain/cis788-97/ftp/virtual_lans/#WhatVLAN">Link</a> </span>
+
 
 Note:
 
@@ -588,26 +573,11 @@ Note:
 <!-- .slide: data-transition="none" -->
 @title[Virtual LAN  - VLAN 03]
 <p align="center"><span class="gold" ><b>Virtual LAN  - VLAN</b></span></p>
-<div class="left-1">
-<ul>
- <li><span style="font-size:0.7em" >Logical groups of Stations at the data link layer (Tagging)</span></li>
-  <ul>
-    <li><span style="font-size:0.6em" >VLAN's allow a network manager to logically segment a LAN into different broadcast domains  : <a href="http://www.cse.wustl.edu/~jain/cis788-97/ftp/virtual_lans/#WhatVLAN">Link</a> </span></li>
-  </ul>
- <li><span style="font-size:0.7em" >Why VLAN?</span></li>
-  <ul>
-     <li><span style="font-size:0.6em" >Performance</span></li>
-     <li><span style="font-size:0.6em" >Security</span></li>
-     <li><span style="font-size:0.6em" >Formation of Virtual Workgroups</span></li>
-     <li><span style="font-size:0.6em" >Simplified Administration</span></li>
-     <li><span style="font-size:0.6em" >Cost</span></li>
-  </ul>
- <li><span style="font-size:0.7em" >VLAN Standard: IEEE 802.1Q </span></li>
-</ul>
-</div>
-<div class="right-1">
-<span style="font-size:0.8em" >&nbsp;  </span>
-</div>
+<br>
+<br>
+<br>
+<span style="font-size:0.6em" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="http://www.cse.wustl.edu/~jain/cis788-97/ftp/virtual_lans/#WhatVLAN">Link</a> </span>
+
 
 Note:
 
@@ -618,26 +588,12 @@ Note:
 <!-- .slide: data-transition="none" -->
 @title[Virtual LAN  - VLAN 04]
 <p align="center"><span class="gold" ><b>Virtual LAN  - VLAN</b></span></p>
-<div class="left-1">
-<ul>
- <li><span style="font-size:0.7em" >Logical groups of Stations at the data link layer (Tagging)</span></li>
-  <ul>
-    <li><span style="font-size:0.6em" >VLAN's allow a network manager to logically segment a LAN into different broadcast domains  : <a href="http://www.cse.wustl.edu/~jain/cis788-97/ftp/virtual_lans/#WhatVLAN">Link</a> </span></li>
-  </ul>
- <li><span style="font-size:0.7em" >Why VLAN?</span></li>
-  <ul>
-     <li><span style="font-size:0.6em" >Performance</span></li>
-     <li><span style="font-size:0.6em" >Security</span></li>
-     <li><span style="font-size:0.6em" >Formation of Virtual Workgroups</span></li>
-     <li><span style="font-size:0.6em" >Simplified Administration</span></li>
-     <li><span style="font-size:0.6em" >Cost</span></li>
-  </ul>
- <li><span style="font-size:0.7em" >VLAN Standard: IEEE 802.1Q </span></li>
-</ul>
-</div>
-<div class="right-1">
-<span style="font-size:0.8em" >&nbsp;  </span>
-</div>
+<br>
+<br>
+<br>
+<span style="font-size:0.6em" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="http://www.cse.wustl.edu/~jain/cis788-97/ftp/virtual_lans/#WhatVLAN">Link</a> </span>
+
+
 
 Note:
 
@@ -648,26 +604,12 @@ Note:
 <!-- .slide: data-transition="none" -->
 @title[Virtual LAN  - VLAN 05]
 <p align="center"><span class="gold" ><b>Virtual LAN  - VLAN</b></span></p>
-<div class="left-1">
-<ul>
- <li><span style="font-size:0.7em" >Logical groups of Stations at the data link layer (Tagging)</span></li>
-  <ul>
-    <li><span style="font-size:0.6em" >VLAN's allow a network manager to logically segment a LAN into different broadcast domains  : <a href="http://www.cse.wustl.edu/~jain/cis788-97/ftp/virtual_lans/#WhatVLAN">Link</a> </span></li>
-  </ul>
- <li><span style="font-size:0.7em" >Why VLAN?</span></li>
-  <ul>
-     <li><span style="font-size:0.6em" >Performance</span></li>
-     <li><span style="font-size:0.6em" >Security</span></li>
-     <li><span style="font-size:0.6em" >Formation of Virtual Workgroups</span></li>
-     <li><span style="font-size:0.6em" >Simplified Administration</span></li>
-     <li><span style="font-size:0.6em" >Cost</span></li>
-  </ul>
- <li><span style="font-size:0.7em" >VLAN Standard: IEEE 802.1Q </span></li>
-</ul>
-</div>
-<div class="right-1">
-<span style="font-size:0.8em" >&nbsp;  </span>
-</div>
+<br>
+<br>
+<br>
+<span style="font-size:0.6em" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="http://www.cse.wustl.edu/~jain/cis788-97/ftp/virtual_lans/#WhatVLAN">Link</a> </span>
+
+
 
 Note:
 
