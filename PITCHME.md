@@ -139,7 +139,7 @@ Deferred Procedure Call - DPC
 
 
 
----?image=/assets/images/slides/Slide9.JPG
+---?image=/assets/images/slides/Slide12.JPG
 @title[Network Acronyms   ]
 <p align="right"><span class="gold" ><b>Network Acronyms  </b></span></p>
 
@@ -413,7 +413,7 @@ Note:
 @title[Where is the EDK II Network Stack located?]
 <p align="right"><span class="gold" ><b>Where is the EDK II Network Stack located?</b></span></p>
 <br>
-@fa[github gp-bullet-gold]<span style="font-size:0.8em">&nbsp;&nbsp;<a href="https://github.com/tianocore/edk2/"> github.com/tianocore/edk2/ </a>
+@fa[github gp-bullet-black]<span style="font-size:0.8em">&nbsp;&nbsp;<a href="https://github.com/tianocore/edk2/">github.com/tianocore/edk2/ </a>
 
 Note:
 3 places depending on IP4 or IP6
@@ -437,11 +437,13 @@ Note:
 <br>
 
 <div class="left1">
-<span style="font-size:0.8em" > Update the Platform DSC and FDF files:</span><br>
+<span style="font-size:0.8em" > Update the Platform DSC and FDF files:</span><br><br>
 <span style="font-size:0.8em" >Wiki link: @fa[github gp-bullet-white]<span style="font-size:0.8em">&nbsp;&nbsp;<a href="https://github.com/tianocore/tianocore.github.io/wiki/NetworkPkg-Getting-Started-Guide#features-enabling  "> Featues enabling </a></span><br>
 <pre>
 ```
+
 DEFINE NETWORK_ENABLE  = TRUE
+DEFINE NETWORK_IP6_ENABLE = TRUE
 // . . .
 ```
 </pre>
@@ -458,7 +460,7 @@ Note:
 <p align="right"><span class="gold" ><b>IP6 Networking - Vendors</b></span></p>
 <br>
 
-<div class="left1">
+<div class="left-1">
 <span style="font-size:0.8em" > IPv6 protocols compliance</span>
 <ul>
  <li><span style="font-size:0.7em" >IPv6 ready logo approved <a href="http://www.ipv6ready.org/db/index.php/public/">ipv6ready.org</a> </span></li>
@@ -466,7 +468,7 @@ Note:
  <li><span style="font-size:0.7em" >Vendor Testing:  <a href="https://www-x.antd.nist.gov/usgv6/faq-c.html#vendors">faq-c.html#vendors  </a> </span></li>
 </ul>
 </div>
-<div class="right1">
+<div class="right-1">
 <span style="font-size:0.8em" >&nbsp;  </span>
 </div>
 
@@ -479,8 +481,7 @@ Note:
 <!-- .slide: data-transition="none" -->
 @title[Virtual LAN  - VLAN]
 <p align="center"><span class="gold" ><b>Virtual LAN  - VLAN</b></span></p>
-<br>
-<div class="left1">
+<div class="left-1">
 <ul>
  <li><span style="font-size:0.7em" >Logical groups of Stations at the data link layer (Tagging)</span></li>
   <ul>
@@ -497,7 +498,7 @@ Note:
  <li><span style="font-size:0.7em" >VLAN Standard: IEEE 802.1Q </span></li>
 </ul>
 </div>
-<div class="right1">
+<div class="right-1">
 <span style="font-size:0.8em" >&nbsp;  </span>
 </div>
 
@@ -572,8 +573,7 @@ ports.
 <!-- .slide: data-transition="none" -->
 @title[Virtual LAN  - VLAN 02]
 <p align="center"><span class="gold" ><b>Virtual LAN  - VLAN</b></span></p>
-<br>
-<div class="left1">
+<div class="left-1">
 <ul>
  <li><span style="font-size:0.7em" >Logical groups of Stations at the data link layer (Tagging)</span></li>
   <ul>
@@ -590,7 +590,7 @@ ports.
  <li><span style="font-size:0.7em" >VLAN Standard: IEEE 802.1Q </span></li>
 </ul>
 </div>
-<div class="right1">
+<div class="right-1">
 <span style="font-size:0.8em" >&nbsp;  </span>
 </div>
 
@@ -603,8 +603,7 @@ Note:
 <!-- .slide: data-transition="none" -->
 @title[Virtual LAN  - VLAN 03]
 <p align="center"><span class="gold" ><b>Virtual LAN  - VLAN</b></span></p>
-<br>
-<div class="left1">
+<div class="left-1">
 <ul>
  <li><span style="font-size:0.7em" >Logical groups of Stations at the data link layer (Tagging)</span></li>
   <ul>
@@ -621,7 +620,7 @@ Note:
  <li><span style="font-size:0.7em" >VLAN Standard: IEEE 802.1Q </span></li>
 </ul>
 </div>
-<div class="right1">
+<div class="right-1">
 <span style="font-size:0.8em" >&nbsp;  </span>
 </div>
 
@@ -634,8 +633,7 @@ Note:
 <!-- .slide: data-transition="none" -->
 @title[Virtual LAN  - VLAN 04]
 <p align="center"><span class="gold" ><b>Virtual LAN  - VLAN</b></span></p>
-<br>
-<div class="left1">
+<div class="left-1">
 <ul>
  <li><span style="font-size:0.7em" >Logical groups of Stations at the data link layer (Tagging)</span></li>
   <ul>
@@ -652,7 +650,7 @@ Note:
  <li><span style="font-size:0.7em" >VLAN Standard: IEEE 802.1Q </span></li>
 </ul>
 </div>
-<div class="right1">
+<div class="right-1">
 <span style="font-size:0.8em" >&nbsp;  </span>
 </div>
 
@@ -665,8 +663,7 @@ Note:
 <!-- .slide: data-transition="none" -->
 @title[Virtual LAN  - VLAN 05]
 <p align="center"><span class="gold" ><b>Virtual LAN  - VLAN</b></span></p>
-<br>
-<div class="left1">
+<div class="left-1">
 <ul>
  <li><span style="font-size:0.7em" >Logical groups of Stations at the data link layer (Tagging)</span></li>
   <ul>
@@ -683,7 +680,7 @@ Note:
  <li><span style="font-size:0.7em" >VLAN Standard: IEEE 802.1Q </span></li>
 </ul>
 </div>
-<div class="right1">
+<div class="right-1">
 <span style="font-size:0.8em" >&nbsp;  </span>
 </div>
 
@@ -1178,7 +1175,9 @@ Note:
 
 ---?image=/assets/images/slides/Slide87.JPG
 @title[UEFI Driver - Problem Statement]
+<br>
 <p align="center"><span class="gold" ><b>UEFI Driver - Problem Statement</b></span></p>
+<br>
 <br>
 <ul>
 <li><span style="font-size:0.9em" >The original UEFI Driver Model is not complete</span></li>
@@ -1269,12 +1268,13 @@ Note:
 
 ---
 @title[Complex Software Drivers]
+<br>
 <p align="center"><span class="gold" ><b>Complex Software Drivers</b></span></p>
 <br>
 <ul>
 <li><span style="font-size:0.9em" >OpenProtocol() BY_DRIVER does not support sharing of protocol interfaces</span></li>
 <li><span style="font-size:0.9em" >Number of Children is not fixed</span></li>
-  <ul>
+  <ul style="list-style-type:disc">
     <li><span style="font-size:0.7em" >Different than enumerable Hardware busses (PCI, ISA)</span></li>
     <li><span style="font-size:0.7em" >Similar to hot plug Hardware buses (USB)</span></li>
   </ul>
@@ -1323,8 +1323,7 @@ Note:
 ---?image=/assets/images/slides/Slide107.JPG
 
 @title[UEFI Service Binding Protocol ]
-<p align="center"><span class="gold" ><b>UEFI Service Binding Protocol</b></span></p>
-<span style="font-size:0.9em" >– Complex Software Service Drivers</span>
+<p align="center"><span class="gold" ><b>UEFI Service Binding Protocol</b></span><span style="font-size:0.8em" ><br>– Complex Software Service Drivers</span></p>
 <br>
 
 Note:
@@ -1341,7 +1340,11 @@ Note:
 
 ---
 @title[UEFI Service Binding Protocol code]
+<br>
 <p align="center"><span class="gold" ><b>UEFI Service Binding Protocol</b></span></p>
+<br>
+<span style="font-size:0.9em" >Code Example</span>
+<br>
 <div class="left1">
 <pre>
 ```
@@ -1380,15 +1383,15 @@ Note:
 <br>
 <ul>
   <li><span style="font-size:0.9em" >`CreateChild()`</span></li>
-  <ul>
+  <ul style="list-style-type:disc">
     <li><span style="font-size:0.7em" >Synchronous hot-plug  add event</span></li>
   </ul>
   <li><span style="font-size:0.9em" >`DestroyChild()`</span></li>
-  <ul>
+  <ul style="list-style-type:disc">
     <li><span style="font-size:0.7em" >Synchronous hot-plug  remove event</span></li>
   </ul>
   <li><span style="font-size:0.9em" >Consumers</span></li>
-  <ul>
+  <ul style="list-style-type:disc">
     <li><span style="font-size:0.7em" >Test for UEFI Service Binding Protocols for the software services the consumer depends upon</span></li>
     <li><span style="font-size:0.7em" >Call `CreateChild()` from `Start()` for each dependent software service</span></li>
     <li><span style="font-size:0.7em" >Creates a child handle with one or more software services</span></li>
@@ -1404,7 +1407,8 @@ Note:
 ---?image=/assets/images/slides/Slide111.JPG
 <!-- .slide: data-transition="none" -->
 @title[NO Interrupts ]
-<p align="center"><span class="gold" ><b>EDK II Only Supports Polling (NO Interrupts)</b></span></p>
+
+<p align="right"><span class="gold" ><b>EDK II Only Supports Polling (NO Interrupts)</b></span></p>
 
 Note:
 
@@ -1412,14 +1416,14 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[NO Interrupts 02]
-<p align="center"><span class="gold" ><b>EDK II Only Supports Polling (NO Interrupts)</b></span></p>
+<p align="right"><span class="gold" ><b>EDK II Only Supports Polling (NO Interrupts)</b></span></p>
 <br>
 <ul>
-  <li><span style="font-size:0.9em" >The IO engine of the whole software stack – POLLING, either timer driven or invoked in applications. </span></li>
-  <li><span style="font-size:0.9em" ><b>Asynchronous</b> – data transmission is divided   into two part, similar with the asynchronous IO in OS scope:    1. initiate the IO via a <b>request</b>;   2. wait for the result of the IO request through <b>event</b> notification.  </span></li>
-  <li><span style="font-size:0.9em" >Most drivers support data block scatter/gather during transmission. </span></li>
-  <li><span style="font-size:0.9em" >Separated IP, Route configurations for each instances based on IP, UDP, TCP, MTFTP and DHCP (Both IPv4 and IPv6) </span></li>
-  <li><span style="font-size:0.9em" >Instances are bound to a NIC on creation. No sharing mechanism in layers spanning over multiple NICs. </span></li>
+  <li><span style="font-size:0.8em" >The IO engine of the whole software stack – POLLING, either timer driven or invoked in applications. </span></li>
+  <li><span style="font-size:0.8em" ><b>Asynchronous</b> – data transmission is divided   into two part, similar with the asynchronous IO in OS scope:    1. initiate the IO via a <b>request</b>;   2. wait for the result of the IO request through <b>event</b> notification.  </span></li>
+  <li><span style="font-size:0.8em" >Most drivers support data block scatter/gather during transmission. </span></li>
+  <li><span style="font-size:0.8em" >Separated IP, Route configurations for each instances based on IP, UDP, TCP, MTFTP and DHCP (Both IPv4 and IPv6) </span></li>
+  <li><span style="font-size:0.8em" >Instances are bound to a NIC on creation. No sharing mechanism in layers spanning over multiple NICs. </span></li>
 </ul>
 
 Note:
@@ -1446,7 +1450,12 @@ Note:
 
 ---
 @title[EDK II DPC Protocol code]
+<br>
 <p align="center"><span class="gold" ><b>EDK II DPC Protocol</b></span></p>
+<br>
+<span style="font-size:0.9em" >Code Example</span>
+<br>
+
 <div class="left1">
 <span style="font-size:0.9em" >Queue DPC</span>
 <pre>
@@ -1492,7 +1501,7 @@ Note:
 ---?image=/assets/images/slides/Slide118.JPG
 <!-- .slide: data-transition="none" -->
 @title[WHY DPC]
-<p align="center"><span class="gold" ><b>Why DPC?</b></span></p>
+### <p align="center"><span class="gold" ><b>Why DPC?</b></span></p>
 
 Note:
 - The DPC protocol is designed to solve the TPL issue in UEFI network stack
@@ -1516,9 +1525,8 @@ Note:
 +++?image=/assets/images/slides/Slide119.JPG
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
-
 @title[WHY DPC 02]
-<p align="center"><span class="gold" ><b>Why DPC?</b></span></p>
+### <p align="center"><span class="gold" ><b>Why DPC?</b></span></p>
 
 Note:
 #### DPC Solves the TPL deadlock issue in UEFI network stack
@@ -1687,6 +1695,9 @@ Note:
 - Same Network Device
 - The services that are provided by MNP child drivers make it possible for multiple drivers and applications to send and receive network traffic using the same network device. 
 
+
+
+
 ---?image=/assets/images/slides/Slide137.JPG
 <!-- .slide: data-transition="none" -->
 @title[UEFI MNP ]
@@ -1795,19 +1806,20 @@ Note:
 
 +++
 @title[IPv4 Driver – in Detail table]
-<br>
 <p align="center"<span class="gold"   >IPv4 Driver – in Detail </span></p>
-| Source   | Description |
-| ---------- | ------------------ |
-| Ip4Common.c |    Common helper routines for the whole driver   |
-| Ip4Driver.c |    DriverBinding and ServiceBinding routines |
-| Ip4Icmp.c   |    Internet Control Message Protocol ICMP related routines|
-| Ip4If.c     |    IP pseudo interface related routines|
-| Ip4Igmp.c   |    Internet Group Management Protocol IGMP related routines |
-| Ip4Impl.c   |    Codes for the APIs defined and exposed by EFI_IP4_PROTOCOL| 
-| Ip4Input.c  |    IP packets input (receive) procedure|
-| Ip4Output.c |    IP packets output (transmit) procedure  |
-| Ip4Route.c  |    Route table related routines|
+
+
+| &nbsp;| Source   | Description |
+| ----  | ---------- | ------------------ |
+| &nbsp;| Ip4Common.c |    Common helper routines for the whole driver   |
+| &nbsp;| Ip4Driver.c |    DriverBinding and ServiceBinding routines |
+| &nbsp;| Ip4Icmp.c   |    Internet Control Message Protocol ICMP related routines |
+| &nbsp;| Ip4If.c     |    IP pseudo interface related routines |
+| &nbsp;| Ip4Igmp.c   |    Internet Group Management Protocol IGMP related routines |
+| &nbsp;| Ip4Impl.c   |    Codes for the APIs defined and exposed by EFI_IP4_PROTOCOL | 
+| &nbsp;| Ip4Input.c  |    IP packets input (receive) procedure |
+| &nbsp;| Ip4Output.c |    IP packets output (transmit) procedure  |
+| &nbsp;| Ip4Route.c  |    Route table related routines |
 
 Note:
  
@@ -1839,20 +1851,20 @@ Note:
 <br>
 <p align="center"<span class="gold"   >IPv6 Driver – in Detail </span></p>
 
-| Source   | Description |
-| ---------- | ------------------ |
-| Ip6Common.c |    Common helper routines for the whole driver   |
-| Ip6Driver.c |    DriverBinding and ServiceBinding routines|
-| Ip6Icmp.c   |    Internet Control Message Protocol ICMP related routines|
-| Ip6If.c     |    IP pseudo interface related routines|
-|   |   |
-| Ip6Nd.c     |    Neighbor Discovery ND related routines|
-| Ip6Mld.c    |    Multicast Listener Discovery MLD related routines|
-|   |   |
-| Ip6Impl.c   |    Codes for the APIs defined and exposed by EFI_Ip6_PROTOCOL |
-| Ip6Input.c  |    IP packets input (receive) procedure|
-| Ip6Output.c |    IP packets output (transmit) procedure  |
-| Ip6Route.c  |    Route table related routines|
+| &nbsp;| Source   | Description |
+| ---- | ---------- | ------------------ |
+| &nbsp;| Ip6Common.c |    Common helper routines for the whole driver   |
+| &nbsp;| Ip6Driver.c |    DriverBinding and ServiceBinding routines |
+| &nbsp;| Ip6Icmp.c   |    Internet Control Message Protocol ICMP related routines |
+| &nbsp;| Ip6If.c     |    IP pseudo interface related routines |
+| &nbsp;| &nbsp;  |  &nbsp; |
+| &nbsp;| Ip6Nd.c     |    Neighbor Discovery ND related routines |
+| &nbsp;| Ip6Mld.c    |    Multicast Listener Discovery MLD related routines |
+| &nbsp;|&nbsp;   | &nbsp;  |
+| &nbsp;| Ip6Impl.c   |    Codes for the APIs defined and exposed by EFI_Ip6_PROTOCOL |
+| &nbsp;| Ip6Input.c  |    IP packets input (receive) procedure |
+| &nbsp;| Ip6Output.c |    IP packets output (transmit) procedure  |
+| &nbsp;| Ip6Route.c  |    Route table related routines |
 
 Note:
  
@@ -1901,7 +1913,7 @@ Note:
 
 3. All IP4_PROTOCOL instances are associated with the IP4_SERVICE by link IP4_PROTOCOL.Link to IP4_SERVICE.Children to form another double-linked list. Also, the number of IP4_PROTOCOL instances are kept in IP4_SERVICE.NumChildren.
 
----?image=/assets/images/slides/Slide148.JPG
+---?image=/assets/images/slides/Slide150.JPG
 <!-- .slide: data-transition="none" -->
 @title[IP4/6 Input Workflow ]
 <p align="right"><span class="gold" ><b>IP4/6 Input Workflow</b></span></p>
@@ -1935,27 +1947,34 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[IP4/6 Input Workflow DETAILs]
+<br>
 <p align="right"><span class="gold" ><b>IP4/6 Input Workflow - Details</b></span></p>
-
-<div class="left1">
+<br>
+<div class="left">
 <pre>
 ```
 Ip4ReceiveFrame ()
-  - Request to receive the packet from the interface. Wrap receive procedure related information
-    into an IP4_LINK_RX_TOKEN. On completion of the receive, Ip4OnFrameReceived () and Ip4OnFrameReceivedDpc (). 
-    After some simple check is done, the CallBack function provided will be called with a packet, or some error 
+  - Request to receive the packet from the interface. Wrap receive 
+    procedure related information into an IP4_LINK_RX_TOKEN. On 
+	completion of the receive, Ip4OnFrameReceived () and 
+	Ip4OnFrameReceivedDpc (). After some simple check is done, the 
+	CallBack function provided will be called with a packet, or some error 
     information. Normally, the CallBack function is Ip4AcceptFrame ().
 Ip4AcceptFrame ()
   - Most work of processing a received IP packet is done here.
    - Sanity check: version number, checksum, size, options, etc.
    - Reassemble fragments of an big IP packet.
-   - Invoke IGMP or ICMP processing if it’s an IGMP or ICMP packet respectively, else invoke Ip4Demultiplex () to 
-     demultiplex the packet to any IP4 instance who is interested in it.
+   - Invoke IGMP or ICMP processing if it’s an IGMP or ICMP packet 
+     respectively, else invoke Ip4Demultiplex () to demultiplex the 
+	 packet to any IP4 instance who is interested in it.
  - the receive procedure by calling Ip4ReceiveFrame ().
 Ip4Demultiplex ()
-  - Iterate all the Ip4 Interfaces, and calling Ip4InterfaceEnquePacket () to let every Ip4 Interface check whether 
-     this IP4 packet matches their receive filter. If matches, enqueue it; else, do nothing.
-  - If any IP4 interface is willing to receive this packet, iterate all the IP4 interfaces and call Ip4InterfaceDeliverPacket ().
+  - Iterate all the Ip4 Interfaces, and calling Ip4InterfaceEnquePacket () 
+    to let every Ip4 Interface check whether 
+    this IP4 packet matches their receive filter. If matches, enqueue it; 
+	else, do nothing.
+  - If any IP4 interface is willing to receive this packet, iterate all 
+    the IP4 interfaces and call Ip4InterfaceDeliverPacket ().
 ```
 </pre>
 </div>
@@ -1964,17 +1983,24 @@ Ip4Demultiplex ()
 ```
 Ip4InterfaceEnquePacket ()
 - Match cast type first, such as, Multicast, Broadcast or Promiscuous.
-- Iterate all the Ip4 instances belonging to this Interface by calling Ip4InstanceEnquePacket () to check whether 
-  there is instance interested in this packet.
+- Iterate all the Ip4 instances belonging to this Interface by calling 
+  Ip4InstanceEnquePacket () to check whether there is instance 
+  interested in this packet.
 Ip4InterfaceDeliverPacket ()
-- Iterate all the IP4 instances and call Ip4InstanceDeliverPacket () to deliver any queued packets of the instances
+- Iterate all the IP4 instances and call Ip4InstanceDeliverPacket () 
+  to deliver any queued packets of the instances
 Ip4InstanceEnquePacket ()
-- Check whether this instance is willing to receive the current IP packet. If all match rules are passed, clone 
-  this packet and put it into the Received list.
+- Check whether this instance is willing to receive the current 
+  IP packet. If all match rules are passed, clone this packet 
+  and put it into the Received list.
 Ip4InstanceDeliverPacket ()
-- Deliver all the queued IP packets to the consumer of this IP4 protocol by every time putting an IP packet into a 
-  consumer provided EFI_IP4_COMPETION_TOKEN, and finally signal the event in the token. The end condition is either there is no IP packet or no consumer provided token.
-- The consumer provided tokens for receive purpose come from the callings to EFI_IP4_PROTOCOL.Receive ().
+- Deliver all the queued IP packets to the consumer of this IP4 
+  protocol by every time putting an IP packet into a consumer provided 
+  EFI_IP4_COMPETION_TOKEN, and finally signal the event in the token. 
+  The end condition is either there is no IP packet or no consumer 
+  provided token.
+- The consumer provided tokens for receive purpose come from the 
+  callings to EFI_IP4_PROTOCOL.Receive ().
 ```
 </pre>
 </div>
@@ -1994,7 +2020,8 @@ Note:
   - The initial source of most IP4/6 output packets.
   - Sanity check.
   - Append IP4/6 head to the buffer passed in.
-  - Record the Token and the corresponding Wrap (IP4/6_TXTOKEN_WRAP)  to the TxTokens NET_MAP.
+  - Record the Token and the corresponding Wrap (IP4/6_TXTOKEN_WRAP)  
+    to the TxTokens NET_MAP.
   - Call Ip4/6Output to output this packet.
 - Ip4/6Output ()
   - Decide the IP address of the next hop for this packet, aka, route selection.
@@ -2013,9 +2040,10 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[IP4/6 Output Workflow DETAILs]
+<br>
 <p align="right"><span class="gold" ><b>IP4/6 Output Workflow - Details</b></span></p>
-
-<div class="left1">
+<br>
+<div class="left">
 <pre>
 ```
 EfiIp4/6Transmit () – EFI_IP4/6_PROTOCOL.Transmit ()
@@ -2060,13 +2088,13 @@ Note:
 
 ---
 @title[UEFI HTTP(s) Boot Overview]
-<p align="right"><span class="gold" ><b>UEFI HTTP(s) Boot Overview</b></span></p>
 <br>
+<p align="right"><span class="gold" ><b>UEFI HTTP(s) Boot Overview</b></span></p>
 <span style="font-size:0.9em"> HTTP protocol for network booting </span>
 <ul>
   <li><span style="font-size:0.8em">HTTP can handle much larger files than TFTP, and scale to much larger distances. You can easily download multi-megabyte files, such as a Linux kernel and a root file system, and you can download from servers that are not on your local area network</span></li>
   <li><span style="font-size:0.8em">Booting from HTTP is as simple as replacing the DHCP filename field with an http:// URL </span></li>
-  <ul>
+  <ul style="list-style-type:disc">
     <li><span style="font-size:0.7em"> Specify URI <span style="vertical-align: super">1</span>-based pointers to the “Network Boot Program (NBP)”, the binary image to download and run, which can be used using HTTP instead of TFTP</span></li>
   </ul>
   <li><span style="font-size:0.8em">DHCP Servers will need to support  HTTP Boot  </span></li>
@@ -2098,12 +2126,15 @@ Note:
 ---?image=/assets/images/slides/Slide158.JPG
 @title[HTTP(s) Boot UEFI  Network Stack ]
 <p align="center"><span class="gold" ><b>HTTP(s) Boot UEFI Network Stack</b></span></p>
+<br>
+<div class="left">
+<ul>
+  <li><span style="font-size:0.8em">DNS IPv4 / IPv6</span></li>
+  <li><span style="font-size:0.8em">HTTP IPv4 / IPv6</span></li>
+  <li><span style="font-size:0.8em">TLS for HTTPs</span></li>
+  <li><span style="font-size:0.8em">HTTP Boot Driver</span></li>
+</ul>
 
-<div class="left1">
-- DNS IPv4 / IPv6
-- HTTP IPv4 / IPv6
-- TLS for HTTPs
-- HTTP Boot Driver
 </div>
 <div class="right1">
 <span style="font-size:0.9em">&nbsp;</span>
@@ -2138,7 +2169,7 @@ Note:
 @title[HTTP(s) Boot UEFI  Network Stack -protocols]
 <p align="center"><span class="gold" ><b>HTTP(s) Boot UEFI Network Stack</b></span></p>
 <span style="font-size:0.9em">- UEFI & EDK II Protocols</span>
-<div class="left1">
+<div class="left-1">
 <pre>
 ```
 - HTTP support
@@ -2159,7 +2190,7 @@ Note:
 ```
 </pre>
 </div>
-<div class="right1">
+<div class="right-1">
 <span style="font-size:0.9em">&nbsp;</span>
 </div>
 
@@ -2168,7 +2199,7 @@ Note:
 
 ---?image=/assets/images/slides/Slide162.JPG
 @title[UEFI Native HTTP Boot – Corporate ]
-<p align="center"><span class="gold" ><b>UEFI Native HTTP Boot</b></span><span style="font-size:0.7em"><br>- Corporate Environment</span></p>
+<p align="center"><span class="gold" ><b>UEFI Native HTTP Boot</b></span><span style="font-size:0.8em"><br>- Corporate Environment</span></p>
 
 Note:
 - The figure shows:a typical HTTP Boot network topology for a corporate environment 
@@ -2245,21 +2276,19 @@ Note:
 
 ---?image=/assets/images/slides/Slide169.JPG
 @title[HTTP(s) Boot Discovery - Architectural Types ]
-<p align="center"><span class="gold" ><b>HTTP(s) Boot Discovery - Architectural Types</b></span></p>
+<p align="right"><span class="gold" ><b>HTTP(s) Boot Discovery - Architectural Types</b></span></p>
 
 <div class="left1">
 <ul>
   <li><span style="font-size:0.8em"> DHCP - <a href="http://www.iana.org/assignments/dhcpv6-parameters/dhcpv6-parameters.xml"> dhcpv6-parameters.xml</a></span> </li>
   <li><span style="font-size:0.8em">IPv4/IPv6 DHCP Discover request </span> </li>
-  <ul>
+  <ul style="list-style-type:disc">
      <li><span style="font-size:0.7em">DHCP Option 93: Client system Architecture </span> </li>
      <li><span style="font-size:0.7em">DHCPv6 Option 61: Client system Architecture </span> </li>
-<pre>
-```
-       0x10 = x64 UEFI boot from HTTP
-       0x0F = x86 UEFI boot from HTTP
-```
-</pre>	 
+	 <ul style="list-style-type:none">
+	   <li><span style="font-size:0.5em">`0x10 = x64 UEFI boot from HTTP ` </span> </li>
+	   <li><span style="font-size:0.5em">`0x0F = x86 UEFI boot from HTTP ` </span> </li>
+     </ul>
   </ul>
   <li><span style="font-size:0.8em">Server responds with DHCPOFFER that includes the boot file HTTP URI for the requested processor architecture  </span> </li>
 </ul>
@@ -2273,7 +2302,9 @@ Note:
 
 ---
 @title[iPXE – UEFI HTTP Chainloading ]
+<br>
 <p align="center"><span class="gold" ><b>iPXE – UEFI HTTP Chainloading</b></span></p>
+<br>
 <span style="font-size:0.9em">UEFI HTTP Boot client to chainload iPXE from an HTTP server   (HTTP boot to iPXE then run iPXE to HTTP download)</span>
 <ul>
  <li><span style="font-size:0.8em">Eliminates need for separate TFTP server</span> </li>
@@ -2281,7 +2312,7 @@ Note:
  <li><span style="font-size:0.8em">iPxe offers advanced features to download and boot OS </span> </li>
  <li><span style="font-size:0.7em">Application note: <a href="http://ipxe.org/appnote/uefihttp"> ipxe.org/Uefihttp </a>   </span> </li>
 </ul>
-<p align="center"><span style="font-size:01.0em" >&nbsp;<span style="background-color: #7030a0"><b>&nbsp;&nbsp;2 Options to address the PXE challenges: <br>Native UEFI HTTP Boot  and  iPXE using UEFI HTTP</b> &nbsp;&nbsp;</b></span></p>
+<p align="center"><span style="font-size:01.0em" >&nbsp;<span style="background-color: #7030a0"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2 Options to address the PXE challenges: &nbsp;&nbsp;&nbsp;&nbsp;<br><br>Native UEFI HTTP Boot  and  iPXE using UEFI HTTP</b> &nbsp;&nbsp;</b></span></p>
 
 Note:
 
@@ -2333,7 +2364,8 @@ Note:
 <br>
 <br>
 <br>
-<span style="font-size:0.6em">White paper <a href="https://github.com/tianocore-docs/Docs/raw/master/White_Papers/EDKIIHttpBootGettingStartedGuide_0_8.pdf"> EDK II HTTP Boot Getting Started Guide </a>for a step by step guide of the HTTP Boot enabling and server configuration in <b>corporate environment.</b>   </span>
+<br>
+<span style="font-size:0.6em">White paper <a href="https://github.com/tianocore-docs/Docs/raw/master/White_Papers/EDKIIHttpBootGettingStartedGuide_0_8.pdf"> EDK II HTTP Boot Getting Started Guide </a>for a step by step guide </span>
 
 Note:
 
@@ -2363,7 +2395,6 @@ Note:
 
 ---
 @title[Getting started Guides]
-<br>
 <p align="center"><span class="gold" ><b>Getting Started Guides</b></span></p>
 <br>
 <span style="font-size:01.1em">HTTP: </span><br>
