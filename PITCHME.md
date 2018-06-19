@@ -1126,6 +1126,7 @@ Note:
 
 ---?image=/assets/images/slides/Slide89.JPG
 @title[UEFI Hardware  Device Driver]
+<br>
 <p align="center"><span class="gold" ><b>UEFI Hardware  Device Driver</b></span></p>
 <br>
 
