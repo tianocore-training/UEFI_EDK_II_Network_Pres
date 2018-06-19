@@ -460,7 +460,7 @@ Note:
 <p align="right"><span class="gold" ><b>IP6 Networking - Vendors</b></span></p>
 <br>
 
-<div class="left-1">
+<div class="left">
 <span style="font-size:0.8em" > IPv6 protocols compliance</span>
 <ul>
  <li><span style="font-size:0.7em" >IPv6 ready logo approved <a href="http://www.ipv6ready.org/db/index.php/public/">ipv6ready.org</a> </span></li>
@@ -468,7 +468,7 @@ Note:
  <li><span style="font-size:0.7em" >Vendor Testing:  <a href="https://www-x.antd.nist.gov/usgv6/faq-c.html#vendors">faq-c.html#vendors  </a> </span></li>
 </ul>
 </div>
-<div class="right-1">
+<div class="right">
 <span style="font-size:0.8em" >&nbsp;  </span>
 </div>
 
@@ -481,26 +481,13 @@ Note:
 <!-- .slide: data-transition="none" -->
 @title[Virtual LAN  - VLAN]
 <p align="center"><span class="gold" ><b>Virtual LAN  - VLAN</b></span></p>
-<div class="left-1">
-<ul>
- <li><span style="font-size:0.7em" >Logical groups of Stations at the data link layer (Tagging)</span></li>
-  <ul>
-    <li><span style="font-size:0.6em" >VLAN's allow a network manager to logically segment a LAN into different broadcast domains  : <a href="http://www.cse.wustl.edu/~jain/cis788-97/ftp/virtual_lans/#WhatVLAN">Link</a> </span></li>
-  </ul>
- <li><span style="font-size:0.7em" >Why VLAN?</span></li>
-  <ul>
-     <li><span style="font-size:0.6em" >Performance</span></li>
-     <li><span style="font-size:0.6em" >Security</span></li>
-     <li><span style="font-size:0.6em" >Formation of Virtual Workgroups</span></li>
-     <li><span style="font-size:0.6em" >Simplified Administration</span></li>
-     <li><span style="font-size:0.6em" >Cost</span></li>
-  </ul>
- <li><span style="font-size:0.7em" >VLAN Standard: IEEE 802.1Q </span></li>
-</ul>
-</div>
-<div class="right-1">
-<span style="font-size:0.8em" >&nbsp;  </span>
-</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<span style="font-size:0.6em" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="http://www.cse.wustl.edu/~jain/cis788-97/ftp/virtual_lans/#WhatVLAN">Link</a> </span>
+
 
 Note:
 
@@ -1345,7 +1332,7 @@ Note:
 <br>
 <span style="font-size:0.9em" >Code Example</span>
 <br>
-<div class="left1">
+<div class="left">
 <pre>
 ```
 typedef struct _EFI_SERVICE_BINDING_PROTOCOL {
@@ -1456,7 +1443,7 @@ Note:
 <span style="font-size:0.9em" >Code Example</span>
 <br>
 
-<div class="left1">
+<div class="left">
 <span style="font-size:0.9em" >Queue DPC</span>
 <pre>
 ```
@@ -1788,15 +1775,24 @@ Note:
 <br>
 <p align="center"<span class="gold"   >IPv4 Driver – in Detail </span></p>
 <br>
+<span style="font-size:0.8em" >Source &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Description</span>
 ```
- Ip4Common.c     Common helper routines for the whole driver   
+ Ip4Common.c     Common helper routines for the whole driver  
+ 
  Ip4Driver.c     DriverBinding and ServiceBinding routines
+
  Ip4Icmp.c       Internet Control Message Protocol ICMP related routines
+
  Ip4If.c         IP pseudo interface related routines
+
  Ip4Igmp.c       Internet Group Management Protocol IGMP related routines 
+
  Ip4Impl.c       Codes for the APIs defined and exposed by EFI_IP4_PROTOCOL 
+
  Ip4Input.c      IP packets input (receive) procedure
+
  Ip4Output.c     IP packets output (transmit) procedure  
+
  Ip4Route.c      Route table related routines
 
 ```
@@ -1804,24 +1800,6 @@ Note:
 Note:
 
 
-+++
-@title[IPv4 Driver – in Detail table]
-<p align="center"<span class="gold"   >IPv4 Driver – in Detail </span></p>
-
-
-| &nbsp;| Source   | Description |
-| ----  | ---------- | ------------------ |
-| &nbsp;| Ip4Common.c |    Common helper routines for the whole driver   |
-| &nbsp;| Ip4Driver.c |    DriverBinding and ServiceBinding routines |
-| &nbsp;| Ip4Icmp.c   |    Internet Control Message Protocol ICMP related routines |
-| &nbsp;| Ip4If.c     |    IP pseudo interface related routines |
-| &nbsp;| Ip4Igmp.c   |    Internet Group Management Protocol IGMP related routines |
-| &nbsp;| Ip4Impl.c   |    Codes for the APIs defined and exposed by EFI_IP4_PROTOCOL | 
-| &nbsp;| Ip4Input.c  |    IP packets input (receive) procedure |
-| &nbsp;| Ip4Output.c |    IP packets output (transmit) procedure  |
-| &nbsp;| Ip4Route.c  |    Route table related routines |
-
-Note:
  
  
 ---  
@@ -1829,45 +1807,31 @@ Note:
 <br>
 <p align="center"<span class="gold"   >IPv6 Driver – in Detail </span></p>
 <br>
+<span style="font-size:0.8em" >Source &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Description</span>
 ```
  Ip6Common.c     Common helper routines for the whole driver   
+
  Ip6Driver.c     DriverBinding and ServiceBinding routines
+
  Ip6Icmp.c       Internet Control Message Protocol ICMP related routines
+
  Ip6If.c         IP pseudo interface related routines
-
+//   Different from IPv4   
  Ip6Nd.c         Neighbor Discovery ND related routines
- Ip6Mld.c        Multicast Listener Discovery MLD related routines
 
+ Ip6Mld.c        Multicast Listener Discovery MLD related routines
+//
  Ip6Impl.c       Codes for the APIs defined and exposed by EFI_Ip6_PROTOCOL 
+
  Ip6Input.c      IP packets input (receive) procedure
+
  Ip6Output.c     IP packets output (transmit) procedure  
+
  Ip6Route.c      Route table related routines
 
 ```
 Note:
 
-+++
-@title[IPv6 Driver – in Detail -table]
-<br>
-<p align="center"<span class="gold"   >IPv6 Driver – in Detail </span></p>
-
-| &nbsp;| Source   | Description |
-| ---- | ---------- | ------------------ |
-| &nbsp;| Ip6Common.c |    Common helper routines for the whole driver   |
-| &nbsp;| Ip6Driver.c |    DriverBinding and ServiceBinding routines |
-| &nbsp;| Ip6Icmp.c   |    Internet Control Message Protocol ICMP related routines |
-| &nbsp;| Ip6If.c     |    IP pseudo interface related routines |
-| &nbsp;| &nbsp;  |  &nbsp; |
-| &nbsp;| Ip6Nd.c     |    Neighbor Discovery ND related routines |
-| &nbsp;| Ip6Mld.c    |    Multicast Listener Discovery MLD related routines |
-| &nbsp;|&nbsp;   | &nbsp;  |
-| &nbsp;| Ip6Impl.c   |    Codes for the APIs defined and exposed by EFI_Ip6_PROTOCOL |
-| &nbsp;| Ip6Input.c  |    IP packets input (receive) procedure |
-| &nbsp;| Ip6Output.c |    IP packets output (transmit) procedure  |
-| &nbsp;| Ip6Route.c  |    Route table related routines |
-
-Note:
- 
 
 ---?image=/assets/images/slides/Slide146.JPG
 <!-- .slide: data-transition="none" -->
@@ -1949,7 +1913,6 @@ Note:
 @title[IP4/6 Input Workflow DETAILs]
 <br>
 <p align="right"><span class="gold" ><b>IP4/6 Input Workflow - Details</b></span></p>
-<br>
 <div class="left">
 <pre>
 ```
@@ -2040,7 +2003,6 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[IP4/6 Output Workflow DETAILs]
-<br>
 <p align="right"><span class="gold" ><b>IP4/6 Output Workflow - Details</b></span></p>
 <br>
 <div class="left">
@@ -2050,10 +2012,12 @@ EfiIp4/6Transmit () – EFI_IP4/6_PROTOCOL.Transmit ()
   - The initial source of most IP4/6 output packets.
   - Sanity check.
   - Append IP4/6 head to the buffer passed in.
-  - Record the Token and the corresponding Wrap (IP4/6_TXTOKEN_WRAP)  to the TxTokens NET_MAP.
+  - Record the Token and the corresponding Wrap 
+    (IP4/6_TXTOKEN_WRAP)  to the TxTokens NET_MAP.
   - Call Ip4/6Output to output this packet.
 Ip4/6Output ()
-  - Decide the IP address of the next hop for this packet, aka, route selection.
+  - Decide the IP address of the next hop for this 
+    packet, aka, route selection.
   - Fragment it if needed.
   - Call Ip4/6SendFrame () to send this packet.
 
@@ -2064,14 +2028,18 @@ Ip4/6Output ()
 <pre>
 ```
 Ip4/6SendFrame ()
-  - Do layer-3 to layer-2 address translation, in most cases need the help from the Arp instance belonging to the IP4 
+  - Do layer-3 to layer-2 address translation, in most cases 
+    need the help from the Arp instance belonging to the IP4 
     interface selected.
-     - Immediately send out the packet by Mnp->Transmit if the translation can be done directly from the arp cache.  
-     - Or create an ArpQue which assembles all the IP4 packets with the same next hop. Once the translation is done, 
-	   all these packets are transmitted out in the event notify function.
-Upon completion of the transmit, either successful or with some failure, the status will be returned to the consumer 
-provided EFI_IP4/6_COMPLETION_TOKEN.Status with the signaling of the event, and at this time, the control of the 
-token is returned to the consumer.
+     - Immediately send out the packet by Mnp->Transmit if the 
+	   translation can be done directly from the arp cache.  
+     - Or create an ArpQue which assembles all the IP4 packets with 
+	   the same next hop. Once the translation is done, all these 
+	   packets are transmitted out in the event notify function.
+Upon completion of the transmit, either successful or with some 
+failure, the status will be returned to the consumer provided 
+EFI_IP4/6_COMPLETION_TOKEN.Status with the signaling of the event, 
+and at this time, the control of the token is returned to the consumer.
 ```
 </pre>
 </div>
@@ -2090,7 +2058,7 @@ Note:
 @title[UEFI HTTP(s) Boot Overview]
 <br>
 <p align="right"><span class="gold" ><b>UEFI HTTP(s) Boot Overview</b></span></p>
-<span style="font-size:0.9em"> HTTP protocol for network booting </span>
+<span style="font-size:0.9em"> <b>HTTP protocol for network booting</b> </span>
 <ul>
   <li><span style="font-size:0.8em">HTTP can handle much larger files than TFTP, and scale to much larger distances. You can easily download multi-megabyte files, such as a Linux kernel and a root file system, and you can download from servers that are not on your local area network</span></li>
   <li><span style="font-size:0.8em">Booting from HTTP is as simple as replacing the DHCP filename field with an http:// URL </span></li>
@@ -2169,7 +2137,7 @@ Note:
 @title[HTTP(s) Boot UEFI  Network Stack -protocols]
 <p align="center"><span class="gold" ><b>HTTP(s) Boot UEFI Network Stack</b></span></p>
 <span style="font-size:0.9em">- UEFI & EDK II Protocols</span>
-<div class="left-1">
+<div class="left">
 <pre>
 ```
 - HTTP support
@@ -2190,7 +2158,7 @@ Note:
 ```
 </pre>
 </div>
-<div class="right-1">
+<div class="right">
 <span style="font-size:0.9em">&nbsp;</span>
 </div>
 
@@ -2277,7 +2245,7 @@ Note:
 ---?image=/assets/images/slides/Slide169.JPG
 @title[HTTP(s) Boot Discovery - Architectural Types ]
 <p align="right"><span class="gold" ><b>HTTP(s) Boot Discovery - Architectural Types</b></span></p>
-
+<br>
 <div class="left1">
 <ul>
   <li><span style="font-size:0.8em"> DHCP - <a href="http://www.iana.org/assignments/dhcpv6-parameters/dhcpv6-parameters.xml"> dhcpv6-parameters.xml</a></span> </li>
@@ -2395,8 +2363,8 @@ Note:
 
 ---
 @title[Getting started Guides]
-<p align="center"><span class="gold" ><b>Getting Started Guides</b></span></p>
 <br>
+<p align="center"><span class="gold" ><b>Getting Started Guides</b></span></p>
 <span style="font-size:01.1em">HTTP: </span><br>
 <span style="font-size:0.8em"><i>Wiki Page</i> <a href="https://github.com/tianocore/tianocore.github.io/wiki/HTTP-Boot">https://github.com/tianocore/tianocore.github.io/wiki/HTTP-Boot </a></span><br>
 <span style="font-size:0.8em">PDF<a href="https://github.com/tianocore-docs/Docs/raw/master/White_Papers/EDKIIHttpBootGettingStartedGuide_0_8.pdf"> EDKIIHttpBootGettingStartedGuide_0_8.pdf</a></span>
