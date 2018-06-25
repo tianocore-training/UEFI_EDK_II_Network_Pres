@@ -1,5 +1,5 @@
 ---?image=assets/images/gitpitch-audience.jpg
-@title[EDK II UDK Debugger]
+@title[UEFI Newtwork in EDK II]
 <br><br><br><br><br>
 ## <span class="gold"   >UEFI & EDK II Training</span>
 
