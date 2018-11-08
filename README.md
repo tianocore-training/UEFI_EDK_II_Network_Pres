@@ -32,5 +32,5 @@
 # UEFI_EDK_II_Network_pres
 Understanding the UEFI Network in EDK II
 
-To see the Slides goto https://gitpitch.com/Laurie0131/UEFI_EDK_II_Network_pres/master#/
+To see the Slides goto https://gitpitch.com/tianocore-training/UEFI_EDK_II_Network_pres/master#/
 
